@@ -386,6 +386,11 @@
 .uk-navbar-nav > li > a {
   text-transform: none;
 }
+@media only all and (max-width: 47.99rem) {
+  .uk_card_multi_columns {
+    margin: 20px 0 0 0 !important;
+  }
+}
 a {
   color: #6951ff;
   transition: all 0.2s;
